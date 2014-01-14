@@ -118,7 +118,6 @@ DirectoryIndex index.htm
 			<Item Name="Shoot.vi" Type="VI" URL="../Shoot.vi"/>
 			<Item Name="Shooter Speed Control.vi" Type="VI" URL="../Shooter Speed Control.vi"/>
 			<Item Name="Joystick.vi" Type="VI" URL="../Joystick.vi"/>
-			<Item Name="Mecanum Encoder.vi" Type="VI" URL="../Mecanum Encoder.vi"/>
 		</Item>
 		<Item Name="VisionSupport Files" Type="Folder">
 			<Item Name="Sorted Particle Report.vi" Type="VI" URL="../Sorted Particle Report.vi"/>
@@ -690,11 +689,11 @@ DirectoryIndex index.htm
 			</Item>
 			<Item Name="Score Particles.vi" Type="VI" URL="../Score Particles.vi"/>
 			<Item Name="RT Overlay Helper.vi" Type="VI" URL="../RT Overlay Helper.vi"/>
+			<Item Name="Teleop.vi" Type="VI" URL="../Teleop.vi"/>
 			<Item Name="niLvFpgaFormatErrorSource.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaFormatErrorSource.vi"/>
 			<Item Name="niLvFpgaWhatHappensToTopLevelVI.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaWhatHappensToTopLevelVI.ctl"/>
 			<Item Name="niFpgaNodeNameForErrorReporting.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/interface/common/niFpgaNodeNameForErrorReporting.ctl"/>
 			<Item Name="niLvFpgaAdjustHostInterfaceError.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaAdjustHostInterfaceError.vi"/>
-			<Item Name="Teleop.vi" Type="VI" URL="../Teleop.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC Robot Boot-up Deployment" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
