@@ -1,5 +1,9 @@
 [My Computer]
+<<<<<<< HEAD
 My Computer = "10.107.13.50"
+=======
+My Computer = "192.168.43.123"
+>>>>>>> master
 
 [RT CompactRIO Target]
 RT CompactRIO Target = "10.0.28.2"
