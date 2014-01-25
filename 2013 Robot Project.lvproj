@@ -30,6 +30,7 @@
 		<Property Name="target.FPProtocolGlobals_ControlTimeLimit" Type="Int">300</Property>
 		<Property Name="target.getDefault-&gt;WebServer.Port" Type="Int">80</Property>
 		<Property Name="target.getDefault-&gt;WebServer.Timeout" Type="Int">60</Property>
+		<Property Name="target.IOScan.Enabled" Type="Bool">true</Property>
 		<Property Name="target.IOScan.Faults" Type="Str"></Property>
 		<Property Name="target.IOScan.NetVarPeriod" Type="UInt">100</Property>
 		<Property Name="target.IOScan.NetWatchdogEnabled" Type="Bool">false</Property>
@@ -110,12 +111,15 @@ DirectoryIndex index.htm
 			<Item Name="Teleop.vi" Type="VI" URL="../Teleop.vi"/>
 		</Item>
 		<Item Name="Support Code" Type="Folder">
-			<Item Name="Rotation.vi" Type="VI" URL="../Rotation.vi"/>
 			<Item Name="Aim.vi" Type="VI" URL="../Aim.vi"/>
 			<Item Name="Average Trailing.vi" Type="VI" URL="../Average Trailing.vi"/>
 			<Item Name="Elapsed Times.vi" Type="VI" URL="../Elapsed Times.vi"/>
 			<Item Name="Lifter.vi" Type="VI" URL="../Lifter.vi"/>
+<<<<<<< HEAD
 			<Item Name="Mecanum Encoder.vi" Type="VI" URL="../Mecanum Encoder.vi"/>
+=======
+			<Item Name="Rotation.vi" Type="VI" URL="../Rotation.vi"/>
+>>>>>>> master
 			<Item Name="Shoot.vi" Type="VI" URL="../Shoot.vi"/>
 			<Item Name="Shooter Speed Control.vi" Type="VI" URL="../Shooter Speed Control.vi"/>
 			<Item Name="Joystick.vi" Type="VI" URL="../Joystick.vi"/>
