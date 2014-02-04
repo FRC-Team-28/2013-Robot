@@ -30,7 +30,6 @@
 		<Property Name="target.FPProtocolGlobals_ControlTimeLimit" Type="Int">300</Property>
 		<Property Name="target.getDefault-&gt;WebServer.Port" Type="Int">80</Property>
 		<Property Name="target.getDefault-&gt;WebServer.Timeout" Type="Int">60</Property>
-		<Property Name="target.IOScan.Enabled" Type="Bool">true</Property>
 		<Property Name="target.IOScan.Faults" Type="Str"></Property>
 		<Property Name="target.IOScan.NetVarPeriod" Type="UInt">100</Property>
 		<Property Name="target.IOScan.NetWatchdogEnabled" Type="Bool">false</Property>
@@ -122,6 +121,7 @@ DirectoryIndex index.htm
 			<Item Name="Joystick.vi" Type="VI" URL="../Joystick.vi"/>
 			<Item Name="Calibrate Drive.vi" Type="VI" URL="../Calibrate Drive.vi"/>
 			<Item Name="Drive Calibration Processing.vi" Type="VI" URL="../Drive Calibration Processing.vi"/>
+			<Item Name="Average Encoders.vi" Type="VI" URL="../Average Encoders.vi"/>
 		</Item>
 		<Item Name="VisionSupport Files" Type="Folder">
 			<Item Name="Sorted Particle Report.vi" Type="VI" URL="../Sorted Particle Report.vi"/>
@@ -133,7 +133,6 @@ DirectoryIndex index.htm
 			<Item Name="Aspect Ratio Score.vi" Type="VI" URL="../Aspect Ratio Score.vi"/>
 		</Item>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
-		<Item Name="Calibrate new.vi" Type="VI" URL="../Calibrate new.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Image Type" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/Image Type"/>
