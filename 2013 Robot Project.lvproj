@@ -120,8 +120,8 @@ DirectoryIndex index.htm
 			<Item Name="Shooter Speed Control.vi" Type="VI" URL="../Shooter Speed Control.vi"/>
 			<Item Name="Joystick.vi" Type="VI" URL="../Joystick.vi"/>
 			<Item Name="Calibrate Drive.vi" Type="VI" URL="../Calibrate Drive.vi"/>
-			<Item Name="Drive Calibration Processing.vi" Type="VI" URL="../Drive Calibration Processing.vi"/>
 			<Item Name="Average Encoders.vi" Type="VI" URL="../Average Encoders.vi"/>
+			<Item Name="Get Velocity.vi" Type="VI" URL="../Get Velocity.vi"/>
 		</Item>
 		<Item Name="VisionSupport Files" Type="Folder">
 			<Item Name="Sorted Particle Report.vi" Type="VI" URL="../Sorted Particle Report.vi"/>
